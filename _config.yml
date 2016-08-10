@@ -1,2 +1,3 @@
 name: Jonathan Grider, Coding Enthusiast
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
