@@ -33,8 +33,17 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+}
+
+
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
