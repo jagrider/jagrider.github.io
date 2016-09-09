@@ -35,11 +35,26 @@ footer {
 
 .footer-left {
   float: left;
+  color: #aaa;
 }
 
 .footer-right {
   top: 2px;
   float: right;
+}
+
+.footer {
+  background-color: #555;
+  color: #aaa;
+}
+
+.footer h4 {
+  color: #aaa;
+
+}
+
+.fa-heart {
+  color: #f77380;
 }
 
 
