@@ -33,6 +33,10 @@ footer {
     font-size: .8em;
 }
 
+.blurb {
+  background-color: #66ccff;
+}
+
 .footer-left {
   float: left;
 }
