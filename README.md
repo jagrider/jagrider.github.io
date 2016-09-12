@@ -1,8 +1,7 @@
 # jagrider.github.io
 
-This site was created with help from Jonathan McGlone and his website tutorial at jmcglone.github.io, as well as 
-the HTML course on SoloLearn.com.
-The content on this site is distributed under a Creative Commons Attribution 3.0 Unported License, 
-and can be found here: https://creativecommons.org/licenses/by/3.0/deed.en_US
+This site was made with help from the tutorial presented by BoilerCamp and the
+BoilerMake team, Fall 2015.
 
-This site is a work in progress and the contents of it are subject to change at any time.
+This site is a work in progress and the contents of it are subject to
+change at any time.
