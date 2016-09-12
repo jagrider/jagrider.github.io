@@ -1,0 +1,21 @@
+{
+  "name": "Jonathan Grider",
+  "homepage": "https://github.com/jagrider/jagrider.github.io",
+  "authors": [
+    "Jonathan Grider <jagrider@purdue.edu>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3"
+  }
+}
