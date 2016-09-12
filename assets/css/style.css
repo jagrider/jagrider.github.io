@@ -137,3 +137,8 @@ section {
 .contact-container div:first-child {
   text-align: center;
 }
+
+#simple-pass {
+  background: #FFCC99;
+  text-align: center;
+}
