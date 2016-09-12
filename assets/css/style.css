@@ -133,3 +133,7 @@ section {
   background-color: #FE938C;
   text-align: center;
 }
+
+.contact-container {
+  align-items: center;
+}
