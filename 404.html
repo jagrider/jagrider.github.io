@@ -1,14 +1,85 @@
-<div class="container">
-  <div class="row">
-    <div class="span12">
-      <div>
-          <h1>Page Not Found <small><font face="Tahoma" color="red">Error 404</font></small></h1>
-          <br />
-          <p>The page you requested could not be found, either contact your webmaster or try again. Use your browsers <b>Back</b> button to navigate to the page you have prevously come from</p>
-          <p><b>Or you could just press this neat little button:</b></p>
-          <a href="/" class="btn btn-large btn-info"><i class="icon-home icon-white"></i> Take Me Home</a>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>The Official Site of Jonathan Grider</title>
+
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+
+  <body>
+    <header class="404-header">
+      <div class="black"></div>
+
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <i class="fa fa-rocket"></i>
+              Jonathan Grider
+            </a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/">Home</a></li>
+              <li><a id="nav-about" href="/#about-section">About</a></li>
+              <li><a id="nav-contact" href="/#contact-section">Contact</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="/assets/img/CS Resume.pdf">Resume</a></li>
+              <li><a href="/projects/projects.html">Projects</a></li>
+            </ul>
+          </div>
         </div>
-        <!-- By ConnerT HTML & CSS Enthusiast -->
-    </div>
-  </div>
-</div>
+      </nav>
+
+      <div class="header-text">
+        <h1 class="header-title">Error: 404</h1>
+        <h2 class="header-subtitle">Oops. That didn't work.</h2>
+        <p class="section-content">
+          The thing you tried to go to doesn't exist on this site or it isn't
+          ready yet. Check below for more options, or try using the navbar
+          above. Sorry about that!
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section id="selection-section">
+        <h2 class="section-header">Where to now?</h2>
+        <div class="container">
+          <p class="section-content">
+            Go to the <a href="/">Homepage</a>
+            <br>
+            Learn more <a href="/#about-section">about me</a>
+            <br>
+            How to <a href="/#contact-section">contact me</a>
+            <br>
+            Read <a href="/blog">my blog</a>
+            <br>
+            Check out my <a href="/projects/projects.html">projects</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Made with <i class="fa fa-heart"></i> by <a href="https://www.github.com/jagrider">Jonathan Grider</a>.
+    </footer>
+
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
