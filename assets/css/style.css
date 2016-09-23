@@ -169,12 +169,6 @@ section {
   text-align: center;
 }
 
-#blog-section {
-  text-align: center;
-  min-height: 400px;
-  min-width: inherit;
-}
-
 .blog-nav {
   padding-top: 25px;
   padding-left: 25px;
