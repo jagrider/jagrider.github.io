@@ -223,8 +223,6 @@ section {
 
 .blog-wrapper {
   display: flex;
-  /*
   justify-content: center;
-  */
   align-items: center;
 }
