@@ -1,9 +1,9 @@
 /*
 * Stuff that needs done when the page loads.
 */
-function () {
+(function () {
   registerNavButtons();
-}
+});
 
 /*
 * registerNavButtons lets us register the buttons for about and contact
@@ -17,7 +17,7 @@ function registerNavButtons() {
 }
 
 /*
-* Smoothens scrolling when About or Contact are selected from the navbar 
+* Smoothens scrolling when About or Contact are selected from the navbar
 */
 function clickAndScroll(link, section) {
   var delay = 700;
