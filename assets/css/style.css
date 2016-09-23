@@ -220,3 +220,9 @@ section {
 .blog-body p {
   margin-bottom: 20px;
 }
+
+.blog-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
