@@ -227,3 +227,7 @@ section {
   justify-content: center;
   align-items: center;
 }
+
+.blog-container {
+  text-align: center;
+}
