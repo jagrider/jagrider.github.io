@@ -1,7 +1,7 @@
 /*
 * Stuff that needs done when the page loads.
 */
-(function () {
+$(function() {
   registerNavButtons();
 });
 
