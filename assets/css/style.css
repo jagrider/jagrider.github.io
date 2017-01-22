@@ -114,6 +114,13 @@ section {
   font-family: "Open Sans", sans-serif;
 }
 
+.section-content-simple-pass {
+  font-size: 1.4em;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+
 #about-section {
   min-height: 400px;
   background-color: #339DCA;
