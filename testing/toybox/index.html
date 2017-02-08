@@ -6,12 +6,24 @@
   <link rel="stylesheet" href="lab03.css" />
   <script>
   /* 	create your array of test scores here */
-
+    var grades = [84, 72, 56, 84, 0, 76, 72, 68, 70];
   /*	Declare your function computeAverage here.
   Don't forget to pass it the array as a parameter.
   The function should replace the contents of the <aside> below with
   "Average = " followed by the computed average */
-  
+  function computeAverage(var scores) {
+    var total = 0;
+    for (var i = 0; i < scores.length; i++) {
+      total += scores[i];
+    }
+
+    var average = total * 1.0 / scores.length;
+    document.getElementById('avg').innerHTML += 'Average = ' + average;
+
+  }
+
+  computeAverage(grades);
+
   </script>
 </head>
 <body>
