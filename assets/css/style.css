@@ -176,6 +176,11 @@ section {
   text-align: center;
 }
 
+#diff-prez {
+  min-height: 400px;
+  background-color: #207cca;
+}
+
 .blog-nav {
   padding-top: 25px;
   padding-left: 25px;
