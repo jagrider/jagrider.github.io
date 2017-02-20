@@ -181,6 +181,10 @@ section {
   background-color: #207cca;
 }
 
+a.diff-prez-link {
+  color: white;
+}
+
 .blog-nav {
   padding-top: 25px;
   padding-left: 25px;
