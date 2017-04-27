@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Monthly Update, April 2017</title>
+
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+
+  <body>
+    <nav class='blog-nav'>
+      <ul class ="nav navbar-nav navbar-left">
+        <li>
+          <a href='/'>
+            <i class='fa fa-rocket'></i>
+              Jonthan Grider
+          </a>
+        </li>
+        <li>
+          <a href="/blog/">
+            <i class="fa fa-pencil"></i>
+              Blog Home
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <article class='blog-post'>
+      <a href='/posts/04-27-2017'><h1 class='blog-title'>April 2017</h1></a>
+
+      <div class='blog-body'>
+        <h2>Updates & New Beginnings</h2>
+
+        <p>
+          This month I have been learning more about multi-threaded programming
+          techniques and parsing HTTP requests. Our last lab for CS252 involves
+          the idea that we are making a "Gladiator" to fight with other programs.
+          The objective is to create the fastest solution that will fork processes
+          and kill enemy processes. After grading concludes, they will take the top
+          submissions and hold a tournament for extra credit -- May the best program win!
+        </p>
+        <p>
+          Outside of coursework, I've been working with my partners to try and
+          fine tune the search results from the diff-prez project. Whether that
+          will see the light of day by the end of the school year is yet to be
+          seen, however. I've also began the process of desiging the UI for a
+          Scheduling application, but I am still working on what platform and
+          language to write it in. I am considering putting some effort into
+          learning more about Objective-C and Swift after the semester ends, as
+          it could prove worthwhile in any future projects I decide to take
+          part in.
+        </p>
+
+      </div>
+    </article>
+
+    <footer>
+      Made with <i class="fa fa-heart"></i> by <a href="https://www.github.com/jagrider">Jonathan Grider</a>.
+    </footer>
+
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
