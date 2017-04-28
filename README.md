@@ -11,7 +11,7 @@ change at any time.
 jagrider.github.io is:
 Hosted on [Github](https://www.github.com) thanks to [Github Pages](https://pages.github.com)
 
-Built with [Bootstrap](http://getbootstrap.com)
+Built with [Bootstrap 3](http://getbootstrap.com)
 
 Uses [FontAwesome](http://fontawesome.io) icons
 
