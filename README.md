@@ -15,4 +15,4 @@ Built with [Bootstrap 3](http://getbootstrap.com)
 
 Uses [FontAwesome](http://fontawesome.io) icons
 
-Licensed under a GNU General Public License v2.0
+Licensed under a GNU General Public License v3.0
