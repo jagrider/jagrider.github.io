@@ -181,6 +181,16 @@ section {
   background-color: #207cca;
 }
 
+#elementrium {
+  min-height: 400px;
+  background-color: #278c51;
+}
+
+#elementrium-about {
+  min-height: 700px;
+  background-color: #278c51;
+}
+
 a.diff-prez-link {
   color: #EDEDED;
 }
