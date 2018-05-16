@@ -1,6 +1,6 @@
 # jagrider.github.io
 
-(c) Jonathan Grider 2017
+(c) Jonathan Grider 2015 - 2018
 
 This site was made with help from the tutorial presented at BoilerCamp by the
 BoilerMake team, Fall 2015.
