@@ -35,7 +35,9 @@
 function scroll_to(clicked_link, nav_height) {
 	var element_class = clicked_link.attr('href').replace('#', '.');
 	var scroll_to = 0;
-	if(clicked_link !== undefined) {
+	if(clicked_link === undefined) {
+    scroll_to = 0;
+  } else {
 		element_class += '-container';
 		scroll_to = $(element_class).offset().top - nav_height;
 	}
