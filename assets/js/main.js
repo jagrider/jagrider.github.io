@@ -40,7 +40,7 @@ function scroll_to(clicked_link, nav_height) {
 		scroll_to = $(element_class).offset().top - nav_height;
 	}
 	if($(window).scrollTop() != scroll_to) {
-		$('html, body').animate({scrollTop: scroll_to}, 700);
+		$('html, body').stop().animate({scrollTop: scroll_to}, 700);
 	}
 }
 
