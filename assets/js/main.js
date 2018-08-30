@@ -53,7 +53,7 @@ jQuery(document).ready(function () {
       scroll_to($(this), $('nav').outerHeight());
     });
 
-    $('a.scroll-link').on('click', function(e) {
+    $('a.top-scroll').on('click', function(e) {
       e.preventDefault();
       $('html, body').stop().animate({scrollTop: 0}, 600);
     });
