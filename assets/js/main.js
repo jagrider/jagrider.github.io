@@ -12,7 +12,7 @@ function registerNavButtons() {
   var sections = ["about", "contact"];
 
   sections.forEach(function(section) {
-    clickAndScroll("#nav-" + section, "#" + section + "-section");
+    clickAndScroll("#nav-" + section, "#" + section);
   });
 }
 
