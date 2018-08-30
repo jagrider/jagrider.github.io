@@ -30,22 +30,27 @@
 //     return false;
 //   });
 // }
+//
+
+function scroll_to(clicked_link, nav_height) {
+	var element_class = clicked_link.attr('href').replace('#', '.');
+	var scroll_to = 0;
+	if(element_class != '.top-content') {
+		element_class += '-container';
+		scroll_to = $(element_class).offset().top - nav_height;
+	}
+	if($(window).scrollTop() != scroll_to) {
+		$('html, body').stop().animate({scrollTop: scroll_to}, 700);
+	}
+}
 
 jQuery(document).ready(function () {
 
     /*
       Used for Navigation
     */
-     $('a[href^="#"]').on('click', function (e) {
-         e.preventDefault();
-
-         var target = this.hash,
-             $target = $(target);
-
-         $('html, body').stop().animate({
-             'scrollTop': $target.offset().top - 80
-         }, 900, 'swing', function () {
-             window.location.hash = target;
-         });
-     });
+    $('a.scroll-link').on('click', function(e) {
+      e.preventDefault();
+      scroll_to($(this), $('nav').outerHeight());
+    });
  });
