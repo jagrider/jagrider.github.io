@@ -94,7 +94,6 @@
 
 footer {
   padding: 2em;
-
   text-align: center;
   font-size: 1.2em;
 }
@@ -126,6 +125,7 @@ section {
   font-size: 1.4em;
   font-weight: 300;
   font-family: "Open Sans", sans-serif;
+  color: black;
 }
 
 .section-content-simple-pass {
