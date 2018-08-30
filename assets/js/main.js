@@ -9,7 +9,7 @@ $(function() {
 * registerNavButtons lets us register the buttons for about and contact
 */
 function registerNavButtons() {
-  var sections = ["about", "contact"];
+  var sections = ["about", "contact", "experience", "projects", "skills"];
 
   sections.forEach(function(section) {
     clickAndScroll("#nav-" + section, "#" + section);
