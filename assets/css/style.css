@@ -44,6 +44,24 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.card h4,
+.card h5,
+.card h6 {
+  text-align: center;
+}
+
+.card-img-top {
+  padding-top: 0.25rem;
+}
+
+#links .card-body {
+  color: black;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
 .header-text {
   position: relative;
   top: 40%;
