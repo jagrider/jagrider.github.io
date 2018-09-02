@@ -98,7 +98,6 @@
 .navbar {
   margin-bottom: 0;
   border: none;
-
   background-color: transparent;
 }
 
@@ -118,10 +117,6 @@ footer {
 
 footer .fa-heart {
   color: #f77380;
-}
-
-.container {
-  max-width: 60em;
 }
 
 section {
