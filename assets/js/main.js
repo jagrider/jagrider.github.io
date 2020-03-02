@@ -9,7 +9,7 @@ $(function() {
 * registerNavButtons lets us register the buttons for about and contact
 */
 function registerNavButtons() {
-  var sections = ["about", "experience", "projects", "skills", "contact"];
+  var sections = ["about", "experience", "projects", "skills", "certifications", "contact"];
 
   sections.forEach(function(section) {
     clickAndScroll("#nav-" + section, "#" + section);
@@ -24,7 +24,7 @@ function clickAndScroll(link, section) {
 
   $(link).click(function() {
     $("html, body").animate({
-      scrollTop: $(section).offset().top
+      scrollTop: $(section).offset().top - 50
     }, delay);
 
     return false;

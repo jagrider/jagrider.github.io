@@ -136,10 +136,10 @@ footer .fa-heart {
 /* Experience Container */
 
 .experience-section {
-border-top: 1px solid gray;
-padding-top: 2em;
-padding-bottom: 2em;
-color: #fff;
+  border-top: 1px solid gray;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: #fff;
 }
 
 .project-btn {
@@ -154,28 +154,45 @@ color: #fff;
 /* Projects Container */
 
 .projects-section {
-border-top: 1px solid gray;
-padding-top: 2em;
-padding-bottom: 2em;
-color: #fff;
+  border-top: 1px solid gray;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: #fff;
 }
 
 
 /* Skills Container */
 
 .skills-section {
-border-top: 1px solid gray;
-padding-top: 2em;
-padding-bottom: 2em;
-color: #fff;
+  border-top: 1px solid gray;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: #fff;
 }
+
+/* Certifications Container */
+
+.certifications-section {
+  border-top: 1px solid gray;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: #fff;
+}
+
+.cert-badge-container {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+
 
 
 /* Contact Container */
 
 .contact-section {
-border-top: 1px solid gray;
-padding-top: 2em;
-padding-bottom: 2em;
-color: #fff;
+  border-top: 1px solid gray;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: #fff;
 }
