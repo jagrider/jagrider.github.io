@@ -1,161 +1,228 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
 
     <!-- Google Analytics and other Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:700,400"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
 
     <title>The official website of Jonathan Grider.</title>
   </head>
 
-    <!-- Header -->
-    <!-- <header>
+  <!-- Header -->
+  <!-- <header>
 
     </header> -->
 
-    <body>
-      <!-- Navbar -->
-      <nav class="navbar navbar-dark fixed-top navbar-expand-md bg-dark">
-        <div class="container">
-            <a class="navbar-brand top-scroll" href="#">
-              <i class="fa fa-rocket">
-              </i>Jonathan Grider</a>
-             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                      <a class="nav-link scroll-link" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link scroll-link" href="#experience">Experience</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link scroll-link" href="#projects">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link scroll-link" href="#skills">Skills</a>
-                  </li>
-                   <li class="nav-item">
-                      <a class="nav-link scroll-link" href="#contact">Contact</a>
-                  </li>
-              </ul>
-            </div>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark fixed-top navbar-expand-md bg-dark">
+      <div class="container">
+        <a class="navbar-brand top-scroll" href="#">
+          <i class="fa fa-rocket"> </i>Jonathan Grider</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link scroll-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <!-- <div class="jumbotron">
+    <!-- <div class="jumbotron">
         <div class="container text-center">
           <h1>My Portfolio</h1>
           <p>Some text that represents "Me"...</p>
         </div>
       </div> -->
 
-      <div class="container">
+    <div class="container">
+      <section id="headshot">
+        <div class="headshot-thumbnail">
+          <img
+            src="/assets/img/headshot.jpg"
+            alt="jon-headshot"
+            class="rounded-circle headshot mx-auto d-block"
+          />
+        </div>
+      </section>
 
-          <section id="headshot">
-            <div class="headshot-thumbnail">
-              <img src="/assets/img/headshot.jpg" alt="jon-headshot" class="rounded-circle headshot mx-auto d-block" />
-            </div>
-          </section>
+      <section id="about">
+        <div class="about-section">
+          <h2 class="section-title">About Me</h2>
+          <div class="section-content">
+            <p>
+              Hey there. I'm Jonathan Grider, a Software Engineer at
+              <a href="https://www.capitalone.com">Capital One</a>.
+            </p>
+            <p>
+              I graduated from Purdue University in May 2019 with a Bachelor of
+              Science in Computer Science with a focus in Software Engineering.
+              I love automating things and finding ways to improve the tools I
+              use every day. I'm currently addicted to coding in Bash,
+              JavaScript and Swift.
+            </p>
+          </div>
+        </div>
+      </section>
 
-          <section id="about">
-            <div class="about-section">
-              <h2 class="section-title">About Me</h2>
-              <div class="section-content">
-                <p>
-                  Hey there. I'm Jonathan Grider, a Software Engineer at <a href="https://www.capitalone.com">Capital One</a>.
-                </p>
-                <p>
-                  I graduated from Purdue University in May 2019 with a Bachelor of Science in Computer Science with a focus in Software Engineering. I love automating things and finding ways to improve the tools I use every day. I'm currently addicted to coding in Bash, JavaScript and Swift.
-                </p>
-              </div>
-            </div>
-          </section>
-
-
-          <section id="experience">
-            <div class="experience-section">
-              <h2 class="section-title">Experience</h2>
-              <div class="card mb-5">
-                <div class="card-body">
-                  <h4 class="card-title">Capital One</h4>
-                  <h6 class="card-subtitle mb-2">Software Engineer</h6>
-                  <!-- <ul class="card-text">
+      <section id="experience">
+        <div class="experience-section">
+          <h2 class="section-title">Experience</h2>
+          <div class="card mb-5">
+            <div class="card-body">
+              <h4 class="card-title">Capital One</h4>
+              <h6 class="card-subtitle mb-2">Software Engineer</h6>
+              <!-- <ul class="card-text">
                     <li>LIST ITEM</li>
                     <li>LIST ITEM</li>
                     <li>LIST ITEM</li>
                   </ul> -->
-                </div>
-                <div class="card-footer text-muted">
-                  <h6>Present - Richmond, VA</h6>
-                </div>
+            </div>
+            <div class="card-footer text-muted">
+              <h6>Present - Richmond, VA</h6>
+            </div>
+          </div>
+
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Capital One</h4>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  Software Engineering Intern
+                </h6>
+                <ul class="card-text">
+                  <li>
+                    Responsible for automating and improving existing codebase
+                    for future API use
+                  </li>
+                  <li>
+                    Reduced manual support overhead to increase productivity
+                    while maintaining quality
+                  </li>
+                  <li>
+                    Transformed manual processes into improved, automated
+                    pipelines utilizing Docker & Jenkins
+                  </li>
+                  <li>
+                    Introduced middle school students to programming by helping
+                    them create Android applications
+                  </li>
+                </ul>
               </div>
-
-
-
-
-              <div class="card-deck">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Capital One</h4>
-                    <h6 class="card-subtitle mb-2 text-muted">Software Engineering Intern</h6>
-                    <ul class="card-text">
-                      <li>Responsible for automating and improving existing codebase for future API use</li>
-                      <li>Reduced manual support overhead to increase productivity while maintaining quality</li>
-                      <li>Transformed manual processes into improved, automated pipelines utilizing Docker & Jenkins</li>
-                      <li>Introduced middle school students to programming by helping them create Android applications</li>
-                    </ul>
-                  </div>
-                  <div class="card-footer text-muted">
-                    <h6>Summer 2018 - McLean, VA</h6>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">ECS Solutions, Inc.</h4>
-                    <h6 class="card-subtitle mb-2 text-muted">Software Engineering Intern</h6>
-                    <ul class="card-text">
-                      <li>Designed a full-stack performance appraisal system that improved employee review efficiency</li>
-                      <li>Slashed data compilation overhead by more than one hour per employee without loss of data</li>
-                      <li>Created a modular SQL database schema for storing performance review data</li>
-                    </ul>
-                  </div>
-                  <div class="card-footer text-muted">
-                    <h6>Summer 2017 - Evansville, IN</h6>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Purdue University</h4>
-                    <h6 class="card-subtitle mb-2 text-muted">Course Coordinator</h6>
-                    <ul class="card-text">
-                      <li>Improved instructional quality by hiring and managing over 40 teaching assistants</li>
-                      <li>Significantly reduced exam development time from 1 month to 1 day while maintaining quality and clarity</li>
-                      <li>Instructed students to improve their knowledge and understanding of Object-Oriented Programming</li>
-                      <li>Led and evaluated groups of students in scrum-based software engineering teams</li>
-                    </ul>
-                  </div>
-                  <div class="card-footer text-muted">
-                    <h6>Present (12 mo) -- West Lafayette, IN</h6>
-                  </div>
-                </div>
+              <div class="card-footer text-muted">
+                <h6>Summer 2018 - McLean, VA</h6>
               </div>
             </div>
-
-          </section>
-<!--
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">ECS Solutions, Inc.</h4>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  Software Engineering Intern
+                </h6>
+                <ul class="card-text">
+                  <li>
+                    Designed a full-stack performance appraisal system that
+                    improved employee review efficiency
+                  </li>
+                  <li>
+                    Slashed data compilation overhead by more than one hour per
+                    employee without loss of data
+                  </li>
+                  <li>
+                    Created a modular SQL database schema for storing
+                    performance review data
+                  </li>
+                </ul>
+              </div>
+              <div class="card-footer text-muted">
+                <h6>Summer 2017 - Evansville, IN</h6>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Purdue University</h4>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  Course Coordinator
+                </h6>
+                <ul class="card-text">
+                  <li>
+                    Improved instructional quality by hiring and managing over
+                    40 teaching assistants
+                  </li>
+                  <li>
+                    Significantly reduced exam development time from 1 month to
+                    1 day while maintaining quality and clarity
+                  </li>
+                  <li>
+                    Instructed students to improve their knowledge and
+                    understanding of Object-Oriented Programming
+                  </li>
+                  <li>
+                    Led and evaluated groups of students in scrum-based software
+                    engineering teams
+                  </li>
+                </ul>
+              </div>
+              <div class="card-footer text-muted">
+                <h6>Present (12 mo) -- West Lafayette, IN</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--
         <div class="card">
           <div class="card-body">
             <h4 class="card-title">Purdue University</h4>
@@ -169,54 +236,74 @@
         </div>
 -->
 
-
-          <section id="projects">
-            <div class="projects-section">
-              <h2 class="section-title">Projects</h2>
-              <div class="card-deck">
-                <div class="card text-center mb-4 px-3">
-                  <div class="card-body px-0">
-                    <h4 class="card-title">spotR</h4>
-                    <h6 class="card-subtitle" style="color: gray">2019</h6>
-                    <p class="card-text">iOS mapping application that lets you view and share information about Purdue University's campus. Built with Swift using the agile development process.</p>
-                  </div>
-                  <div class="card-footer project-footer px-0">
-                    <a href="" class="btn btn-primary project-btn">Soon™</a>
-                  </div>
-                </div>
-                <div class="card text-center mb-4 px-3">
-                  <div class="card-body px-0">
-                    <h4 class="card-title">Bicker Quicker</h4>
-                    <h6 class="card-subtitle" style="color: gray">2018</h6>
-                    <p class="card-text">A mobile application that lets the internet decide who is right in an argument.</p>
-                  </div>
-                  <div class="card-footer project-footer px-0">
-                    <a href="https://github.com/BlizzardLizardz/BickerQuicker" class="btn btn-primary project-btn">Go</a>
-                  </div>
-                </div>
+      <section id="projects">
+        <div class="projects-section">
+          <h2 class="section-title">Projects</h2>
+          <div class="card-deck">
+            <div class="card text-center mb-4 px-3">
+              <div class="card-body px-0">
+                <h4 class="card-title">spotR</h4>
+                <h6 class="card-subtitle" style="color: gray">2019</h6>
+                <p class="card-text">
+                  iOS mapping application that lets you view and share
+                  information about Purdue University's campus. Built with Swift
+                  using the agile development process.
+                </p>
               </div>
-              <div class="card-deck">
-                <div class="card text-center mb-4 px-3">
-                  <div class="card-body px-0">
-                    <h4 class="card-title">Diff Prez</h4>
-                    <h6 class="card-subtitle" style="color: gray">2017</h6>
-                    <p class="card-text">A webapp that enables users to query topics and compare the positions and policies of the Obama and Trump administrations.</p>
-                  </div>
-                  <div class="card-footer project-footer px-0">
-                    <a href="https://github.com/mashbeck/diff-prez" class="btn btn-primary project-btn">Go</a>
-                  </div>
-                </div>
-                <div class="card text-center mb-4 px-3">
-                  <div class="card-body px-0">
-                    <h4 class="card-title">Elementrium</h4>
-                    <h6 class="card-subtitle" style="color: gray">2017</h6>
-                    <p class="card-text">A Unity application with the goal to educate young learners about atoms, molecules and their uses.</p>
-                  </div>
-                  <div class="card-footer project-footer px-0">
-                    <a class="btn btn-primary project-btn">Soon™</a>
-                  </div>
-                </div>
-                <!-- <div class="card text-center mb-4 px-3">
+              <div class="card-footer project-footer px-0">
+                <a href="" class="btn btn-primary project-btn">Soon™</a>
+              </div>
+            </div>
+            <div class="card text-center mb-4 px-3">
+              <div class="card-body px-0">
+                <h4 class="card-title">Bicker Quicker</h4>
+                <h6 class="card-subtitle" style="color: gray">2018</h6>
+                <p class="card-text">
+                  A mobile application that lets the internet decide who is
+                  right in an argument.
+                </p>
+              </div>
+              <div class="card-footer project-footer px-0">
+                <a
+                  href="https://github.com/BlizzardLizardz/BickerQuicker"
+                  class="btn btn-primary project-btn"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="card-deck">
+            <div class="card text-center mb-4 px-3">
+              <div class="card-body px-0">
+                <h4 class="card-title">Diff Prez</h4>
+                <h6 class="card-subtitle" style="color: gray">2017</h6>
+                <p class="card-text">
+                  A webapp that enables users to query topics and compare the
+                  positions and policies of the Obama and Trump administrations.
+                </p>
+              </div>
+              <div class="card-footer project-footer px-0">
+                <a
+                  href="https://github.com/mashbeck/diff-prez"
+                  class="btn btn-primary project-btn"
+                  >Go</a
+                >
+              </div>
+            </div>
+            <div class="card text-center mb-4 px-3">
+              <div class="card-body px-0">
+                <h4 class="card-title">Elementrium</h4>
+                <h6 class="card-subtitle" style="color: gray">2017</h6>
+                <p class="card-text">
+                  A Unity application with the goal to educate young learners
+                  about atoms, molecules and their uses.
+                </p>
+              </div>
+              <div class="card-footer project-footer px-0">
+                <a class="btn btn-primary project-btn">Soon™</a>
+              </div>
+            </div>
+            <!-- <div class="card text-center mb-4 px-3">
                   <div class="card-body px-0">
                     <h4 class="card-title">SimplePass</h4>
                     <h6 class="card-subtitle" style="color: gray">2016</h6>
@@ -226,115 +313,148 @@
                     <a class="btn btn-primary project-btn">Soon™</a>
                   </div>
                 </div> -->
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="skills-section">
+          <h2 class="section-title">Skills</h2>
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Best</h4>
+                <ul class="card-text">
+                  <li>JavaScript / Node.js</li>
+                  <li>Bash Scripting</li>
+                  <li>Swift</li>
+                  <li>AWS</li>
+                </ul>
               </div>
             </div>
-          </section>
-
-
-          <section id="skills">
-            <div class="skills-section">
-              <h2 class="section-title">Skills</h2>
-              <div class="card-deck">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Best</h4>
-                    <ul class="card-text">
-                      <li>JavaScript / Node.js</li>
-                      <li>Bash Scripting</li>
-                      <li>Swift</li>
-                      <li>AWS</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Better</h4>
-                    <ul class="card-text">
-                      <li>Google Apps Script</li>
-                      <li>Docker</li>
-                      <li>Jenkins</li>
-                      <li>Java</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Good</h4>
-                    <ul class="card-text">
-                      <li>SQL (Microsoft, Oracle)</li>
-                      <li>JUnit</li>
-                      <li>C / C++ / C#</li>
-                      <li>Python</li>
-                    </ul>
-                  </div>
-                </div>
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Better</h4>
+                <ul class="card-text">
+                  <li>Google Apps Script</li>
+                  <li>Docker</li>
+                  <li>Jenkins</li>
+                  <li>Java</li>
+                </ul>
               </div>
             </div>
-          </section>
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Good</h4>
+                <ul class="card-text">
+                  <li>SQL (Microsoft, Oracle)</li>
+                  <li>JUnit</li>
+                  <li>C / C++ / C#</li>
+                  <li>Python</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-
-          <section id="certifications">
-            <div class="certifications-section">
-              <h2 class="section-title">Certifications</h2>
-              <div class="cert-badge-container">
-                <!-- AWS Badge -->
-                <!-- <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2020-02-29&ci=AWS01276652">
+      <section id="certifications">
+        <div class="certifications-section">
+          <h2 class="section-title">Certifications</h2>
+          <div class="cert-badge-container">
+            <!-- AWS Badge -->
+            <!-- <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2020-02-29&ci=AWS01276652">
                   <img src="./assets/img/AWS-SAA-Badge.png" alt="AWS Solutions Architect - Associate" style="width: 256px; height: auto;">
                 </a> -->
-                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a3625af0-3ae8-41ca-87e2-fce01f2c4e21" data-share-badge-host="https://www.youracclaim.com">
-                </div>
-                <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+            <div
+              data-iframe-width="150"
+              data-iframe-height="270"
+              data-share-badge-id="a3625af0-3ae8-41ca-87e2-fce01f2c4e21"
+              data-share-badge-host="https://www.youracclaim.com"
+            ></div>
+            <script
+              type="text/javascript"
+              async
+              src="//cdn.youracclaim.com/assets/utilities/embed.js"
+            ></script>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="contact-section">
+          <h2 class="section-title">Contact</h2>
+          <div class="card-deck px-3">
+            <div class="card text-center mb-4">
+              <div class="card-body px-0">
+                <h4 class="card-title">GitHub</h4>
+                <p class="card-text">Check out my personal projects here.</p>
+              </div>
+              <div class="card-footer project-footer px-0">
+                <a
+                  href="https://www.github.com/jagrider"
+                  class="btn btn-primary project-btn"
+                  >Go</a
+                >
               </div>
             </div>
-          </section>
-
-
-          <section  id="contact">
-            <div class="contact-section">
-              <h2 class="section-title">Contact</h2>
-              <div class="card-deck px-3">
-                <div class="card text-center mb-4">
-                  <div class="card-body px-0">
-                    <h4 class="card-title">GitHub</h4>
-                    <p class="card-text">Check out my personal projects here.</p>
-                  </div>
-                  <div class="card-footer project-footer px-0">
-                    <a href="https://www.github.com/jagrider" class="btn btn-primary project-btn">Go</a>
-                  </div>
-                </div>
-                <div class="card text-center mb-4 px-3">
-                  <div class="card-body px-0">
-                    <h4 class="card-title">Resumé</h4>
-                    <p class="card-text">Click the button below to view my Resumé. Additional contact information is available upon request.</p>
-                  </div>
-                  <div class="card-footer project-footer px-0">
-                    <a href="/assets/img/CS-Resume.pdf" class="btn btn-primary project-btn">Go</a>
-                  </div>
-                </div>
-                <div class="card text-center mb-4 px-3">
-                  <div class="card-body px-0">
-                    <h4 class="card-title">LinkedIn</h4>
-                    <p class="card-text">Feel free to reach out to me on LinkedIn.</p>
-                  </div>
-                  <div class="card-footer project-footer px-0">
-                    <a href="https://www.linkedin.com/in/jonathan-grider-b7a020134" class="btn btn-primary project-btn">Go</a>
-                  </div>
-                </div>
+            <div class="card text-center mb-4 px-3">
+              <div class="card-body px-0">
+                <h4 class="card-title">Resumé</h4>
+                <p class="card-text">
+                  Click the button below to view my Resumé. Additional contact
+                  information is available upon request.
+                </p>
+              </div>
+              <div class="card-footer project-footer px-0">
+                <a
+                  href="/assets/img/CS-Resume.pdf"
+                  class="btn btn-primary project-btn"
+                  >Go</a
+                >
               </div>
             </div>
-          </section>
-      </div>
+            <div class="card text-center mb-4 px-3">
+              <div class="card-body px-0">
+                <h4 class="card-title">LinkedIn</h4>
+                <p class="card-text">
+                  Feel free to reach out to me on LinkedIn.
+                </p>
+              </div>
+              <div class="card-footer project-footer px-0">
+                <a
+                  href="https://www.linkedin.com/in/jonathan-grider-b7a020134"
+                  class="btn btn-primary project-btn"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src='/assets/js/main.js'></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/main.js"></script>
 
     <footer>
-      Made with <i class="fa fa-heart"></i> by <a href="https://www.github.com/jagrider">Jonathan Grider</a>.
+      Made with <i class="fa fa-heart"></i> by
+      <a href="https://www.github.com/jagrider">Jonathan Grider</a>.
     </footer>
-
   </body>
-
 </html>

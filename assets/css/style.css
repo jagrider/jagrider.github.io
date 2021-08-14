@@ -100,20 +100,19 @@ footer .fa-heart {
 
 .section-title {
   margin-top: 0;
-  margin-bottom: 1rem!important;
+  margin-bottom: 1rem !important;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: black;
 }
 
 .section-content {
   font-size: 1.4em;
   font-weight: 300;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: black;
 }
-
 
 /* About Container */
 
@@ -131,7 +130,6 @@ footer .fa-heart {
   color: #fff;
   text-align: center;
 }
-
 
 /* Experience Container */
 
@@ -160,7 +158,6 @@ footer .fa-heart {
   color: #fff;
 }
 
-
 /* Skills Container */
 
 .skills-section {
@@ -184,9 +181,6 @@ footer .fa-heart {
   display: block;
   width: 100%;
 }
-
-
-
 
 /* Contact Container */
 
